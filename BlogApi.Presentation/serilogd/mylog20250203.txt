@@ -1,0 +1,27 @@
+2025-02-03 10:26:21.588 +03:30 [INF] User profile is available. Using 'C:\Users\NAANAA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-03 10:26:22.101 +03:30 [INF] Now listening on: https://localhost:7284
+2025-02-03 10:26:22.102 +03:30 [INF] Now listening on: http://localhost:5015
+2025-02-03 10:26:22.110 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-03 10:26:22.111 +03:30 [INF] Hosting environment: Development
+2025-02-03 10:26:22.111 +03:30 [INF] Content root path: D:\project\CleanArchitectureBlog\BlogApi.Presentation\
+2025-02-03 10:26:30.727 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - -
+2025-02-03 10:26:31.786 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - - - 200 - text/html;charset=utf-8 1070.7277ms
+2025-02-03 10:26:31.789 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - -
+2025-02-03 10:26:31.789 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2025-02-03 10:26:31.808 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 19.3671ms
+2025-02-03 10:26:31.901 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.6992ms
+2025-02-03 10:26:31.959 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - -
+2025-02-03 10:26:32.179 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 219.5134ms
+2025-02-03 10:26:41.444 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7284/api/Auth/Login application/json 50
+2025-02-03 10:26:41.463 +03:30 [INF] CORS policy execution successful.
+2025-02-03 10:26:41.627 +03:30 [INF] Executing endpoint 'BlogApi.Presentation.Controllers.AuthController.Login (BlogApi.Presentation)'
+2025-02-03 10:26:41.693 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginDto) on controller BlogApi.Presentation.Controllers.AuthController (BlogApi.Presentation).
+2025-02-03 10:26:41.929 +03:30 [INF] Executing action method BlogApi.Presentation.Controllers.AuthController.Login (BlogApi.Presentation) - Validation state: "Valid"
+2025-02-03 10:26:41.937 +03:30 [ERR] string
+2025-02-03 10:26:41.937 +03:30 [INF] string
+2025-02-03 10:26:41.948 +03:30 [INF] Executed action method BlogApi.Presentation.Controllers.AuthController.Login (BlogApi.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.6371ms.
+2025-02-03 10:26:41.970 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-03 10:26:42.030 +03:30 [INF] Executed action BlogApi.Presentation.Controllers.AuthController.Login (BlogApi.Presentation) in 323.0271ms
+2025-02-03 10:26:42.030 +03:30 [INF] Executed endpoint 'BlogApi.Presentation.Controllers.AuthController.Login (BlogApi.Presentation)'
+2025-02-03 10:26:42.031 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7284/api/Auth/Login application/json 50 - 200 - application/json;+charset=utf-8 586.5460ms
+2025-02-03 10:28:08.702 +03:30 [ERR] string
